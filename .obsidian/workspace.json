@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "04145763fd491cc5",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "198fbaac4bba90c1",
             "type": "leaf",
             "state": {
@@ -31,8 +21,7 @@
               "title": "README.MD"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,10 +166,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "github-sync:Sync with Remote": false
     }
   },
-  "active": "198fbaac4bba90c1",
+  "active": "759f6f41bef88b28",
   "lastOpenFiles": [
     "README.MD.md"
   ]
