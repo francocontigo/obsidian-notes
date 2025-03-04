@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0 Notebook/SQL.md",
+                "file": "1 Books&Courses/Descomplicando SQL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL"
+              "title": "Descomplicando SQL"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0 Notebook/SQL.md",
+                "file": "1 Books&Courses/Descomplicando SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for SQL"
+              "title": "Backlinks for Descomplicando SQL"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0 Notebook/SQL.md",
+                "file": "1 Books&Courses/Descomplicando SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from SQL"
+              "title": "Outgoing links from Descomplicando SQL"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0 Notebook/SQL.md",
+                "file": "1 Books&Courses/Descomplicando SQL.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SQL"
+              "title": "Outline of Descomplicando SQL"
             }
           }
         ],
@@ -156,7 +156,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -166,14 +167,14 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false,
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "46fc6db018cd5f8f",
+  "active": "d060db48664c6427",
   "lastOpenFiles": [
+    "2 Files/Pasted image 20250304092507.png",
     "0 Notebook/SQL.md",
-    "0 Notebook/SQL.md",
+    "1 Books&Courses/Descomplicando SQL.md",
     "3 Templates/Template 1.md",
     "0 Notebook/Untitled 1.md",
     "README.MD.md",
