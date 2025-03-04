@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 Books&Courses/Descomplicando SQL.md",
+                "file": "1 Books&Courses/Estrutura de Dados e Algoritmos Augusto Galego.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Descomplicando SQL"
+              "title": "Estrutura de Dados e Algoritmos Augusto Galego"
             }
           }
         ]
@@ -172,9 +172,10 @@
   },
   "active": "d060db48664c6427",
   "lastOpenFiles": [
+    "1 Books&Courses/Descomplicando SQL.md",
+    "1 Books&Courses/Estrutura de Dados e Algoritmos Augusto Galego.md",
     "2 Files/Pasted image 20250304092507.png",
     "0 Notebook/SQL.md",
-    "1 Books&Courses/Descomplicando SQL.md",
     "3 Templates/Template 1.md",
     "0 Notebook/Untitled 1.md",
     "README.MD.md",
