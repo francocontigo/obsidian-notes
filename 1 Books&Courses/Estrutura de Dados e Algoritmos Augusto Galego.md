@@ -69,3 +69,11 @@ LIFO -  Last in First Out
 Node
 left(Node)
 right(Node)
+
+## Heap
+
+
+## Grafos
+
+## TRIE
+
