@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "9dd836da8e3f6159",
+        "id": "4ed6dc5fa899adcc",
         "type": "tabs",
         "children": [
           {
-            "id": "a32014380e951e90",
+            "id": "530d72e80b4ece13",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "1 Books&Courses/Associate Data Engineer in SQL.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Associate Data Engineer in SQL"
             }
           }
         ]
@@ -166,7 +170,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "a32014380e951e90",
+  "active": "530d72e80b4ece13",
   "lastOpenFiles": [
     "1 Books&Courses/Descomplicando SQL.md",
     "0 Notebook/Data Engineeing.md",
