@@ -1,0 +1,13 @@
+# Python / Streamlit
+__pycache__/
+*.pyc
+.venv/
+venv/
+.streamlit/secrets.toml
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# scratch
+raw/.inbox.tmp
