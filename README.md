@@ -133,6 +133,30 @@ do calendário — assim funciona offline e sem depender de relógio). Caixas e 
 
 ---
 
+## 🔎 Busca / RAG (camada opcional, na UI)
+
+> **Nota de design:** o LLM Wiki do Karpathy é deliberadamente *sem RAG* (markdown puro no contexto).
+> Esta é uma camada **opcional** por cima, na aba **Search** do Streamlit — útil conforme a wiki cresce.
+> Não altera o fluxo de slash commands.
+
+**Engine de busca híbrida** (`app/rag/`): combina **BM25** (léxico) + **embeddings semânticos locais**
+(`sentence-transformers`, offline, sem chave), fundidos por **Reciprocal Rank Fusion** e reordenados por um
+**cross-encoder** (rerank). Degrada com elegância: sem o `sentence-transformers`, roda só BM25 e avisa quais
+modos estão ativos.
+
+**Resposta (RAG) com escolha de provider:** abstração em `app/rag/llm.py` que gera a resposta com **OpenAI**
+ou **Anthropic** (modelo e chave escolhidos na barra lateral; chave também via `OPENAI_API_KEY` /
+`ANTHROPIC_API_KEY`). Default Anthropic: `claude-opus-4-8`; default OpenAI: `gpt-4o`.
+
+**Perplexity score (confiança):** calculada como `exp(média(-logprob dos tokens))` — **menor = mais
+confiante**. Só disponível com **OpenAI** (expõe logprobs); com **Anthropic** aparece como indisponível,
+porque a API não expõe logprobs. A resposta sempre cita as páginas usadas como `[[wikilink]]`.
+
+```bash
+pip install -r app/requirements.txt   # inclui rank-bm25, sentence-transformers (torch), openai, anthropic
+make ui                                # aba "Search"
+```
+
 ## Pré-requisitos
 - [Claude Code CLI](https://docs.claude.com/claude-code) instalado, no PATH (`claude`), e logado (`claude` → login na 1ª vez).
 - Para a UI: Python 3.10+ e `pip install -r app/requirements.txt`.
